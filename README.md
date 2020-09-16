@@ -33,9 +33,9 @@ Head over to [action.yml](action.yml) for more information about variables.
 
 ## Developing
 
-For the lazy ...
+To properly bump version:
 ```bash
-git add -A && git commit -m "ci" && git tag -a -m "ci" v1.0.5 && git push --follow-tags
+npm run tag:patch && git push --follow-tags
 ```
 
 ## Debugging
