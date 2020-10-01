@@ -1,4 +1,9 @@
-on: [push]
+name: Dropbox Upload
+
+on:
+  push:
+    branches: [ master ]
+    tags: ["v*"]
 
 jobs:
   local_development:
