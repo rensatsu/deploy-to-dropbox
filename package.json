@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/rensatsu/deploy-to-dropbox#readme",
   "dependencies": {
-    "@actions/core": "^1.2.5",
+    "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
     "@actions/http-client": "^1.0.8",
     "@types/node": "^14.10.1",
