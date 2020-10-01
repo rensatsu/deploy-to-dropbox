@@ -8,7 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Create timestamped file
-        run: date --iso-8601=seconds | tee sample/date.txt
+        run: date --iso-8601=seconds | tee sample/date.md
       - name: Upload files
         uses: ./ # Uses an action in the root directory
         with:
