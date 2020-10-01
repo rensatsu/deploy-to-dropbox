@@ -16,8 +16,4 @@ jobs:
           DROPBOX_DESTINATION_PATH_PREFIX: "/"
           GLOB: "sample/**/*.md"
           FILE_WRITE_MODE: overwrite
-      - name: Upload sample artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: sample
-          path: sample/
+
